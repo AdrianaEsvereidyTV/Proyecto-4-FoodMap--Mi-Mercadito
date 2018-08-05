@@ -12,7 +12,7 @@ body{
 h1{
   color: rgb(190, 97, 97);
   text-align: center;
-  margin-top: 75%;
+  margin-top: 40%;
   font-family: Vegur, 'PT Sans', Verdana, Sans-serif;
 }
 
@@ -59,21 +59,4 @@ h1{
 
 }
 
-/*
-.loading {
-  border: 15px solid #ccc;
-  border-top-color: rgba(250, 88, 24, 0.925);
-  border-top-style: groove;
-  height: 100px;
-  border-radius: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  -webkit-animation: girar 1.5s linear infinite;
-  -o-animation: girar 1.5s linear infinite;
-  animation: girar 1.5s linear infinite;
-}*/
 
