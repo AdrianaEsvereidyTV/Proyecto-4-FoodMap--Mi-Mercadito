@@ -1,4 +1,4 @@
-window.mercadata = {
+window.orientaldata = {
   Goguinara: {
     name: 'Goguinara',
     food: ['Kimchi chiggue', 'Cheiuk Bibimbap', 'Makkoli', 'Dolsot Bibimbap'],
@@ -73,9 +73,17 @@ window.mercadata = {
 
   PandaExpress: {
     name: 'Panda Express',
-    food: ['sushi', 'comida china', 'tempayaki', 'takoyaki'],
+    food: ['Ying yang', 'comida china', 'pollo a la naranja', 'pollo agridulce'],
     address: 'Avenida Cuauhtémoc 462 Local Fc06, Narvarte, Benito Juárez, 03020 Cdmx, CDMX',
     telephone: ' 01 55 5440 2698',
     image: '../img/sushiitto.jpg'
+  },
+
+  TakeAWok: {
+    name: 'Take a wok',
+    food: ['Ying yang', 'comida china', 'pollo a la naranja', 'pollo agridulce'],
+    address: 'Calle Dinamarca #26 Colonia Juárez Delegación Cuauhtémoc, C.P. 06600 ',
+    telephone: '  55466384',
+    image: '../img/takeawok.jpg'
   },
 };
