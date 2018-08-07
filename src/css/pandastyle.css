@@ -13,7 +13,7 @@ div.animacion {
   width: 28.33%;
   height: 500px;
   padding: 50px 2.5%;
-  margin: 0;
+  margin: -50px;
   float: left;
 }
 
@@ -32,9 +32,10 @@ div.animacion img {
 
 .collection {
   display: block;
-  height: 40vh;
-  width: 40vh;
+  height: 55vh;
+  width: 56vh;
   padding: 10px;
+  margin: auto;
 }
 
 .collection a {
