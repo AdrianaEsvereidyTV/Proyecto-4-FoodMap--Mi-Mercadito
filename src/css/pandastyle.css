@@ -1,15 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
-body{
-	background: rgba(236, 235, 222, 0.2);
-}
-.container{
 
-	overflow:hidden;
-
+body {
+  background: rgba(236, 235, 222, 0.2);
 }
 
-div.animacion{
+.container {
+  overflow: hidden;
+}
+
+div.animacion {
   width: 28.33%;
   height: 500px;
   padding: 50px 2.5%;
@@ -17,7 +17,7 @@ div.animacion{
   float: left;
 }
 
-div.animacion img{
+div.animacion img {
   width: 40%;
   height: auto;
   float: left;
@@ -25,20 +25,20 @@ div.animacion img{
   margin: 10px 30%;
 }
 
-.aparece{
+.aparece {
   opacity: 0;
   transition: all 0.5s;
 }
 
-
 .collection {
   display: block;
-  height: 30vh;
+  height: 40vh;
+  width: 40vh;
   padding: 10px;
 }
 
 .collection a {
-  box-shadow: 2px 4px 6px 2px  rgba(144, 179, 80, 0.3);
+  box-shadow: 2px 4px 6px 2px rgba(144, 179, 80, 0.3);
   width: 100%;
   height: 100%;
   display: inline-block;
@@ -71,48 +71,61 @@ div.animacion img{
   height: 45%;
   align-items: center;
   justify-content: center;
-
 }
+
 /* Desde un escritorio*/
 
 @media (min-width: 1200px) {}
-  /* Desde un escritorio pequeño o una tablet*/
-  @media (min-width: 768px) and (max-width: 979px) {}
-  /* Desde Tablet y Smartphone */
-  @media (min-width: 767px) {}
-  /* Smartphone */
-  @media (min-width: 480px) {}
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
-    .elemento-nav .sec {
-      font-size: 20px;
-    }
-    .normal {
-      display: none;
-    }
-    .card-body {
-      height: 100px;
-    }
-    .all-botones {
-      margin-top: -30px;
-    }
-  }
-  @media only screen and (min-width: 600px) {}
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 768px) {
-    .movil {
-      display: none;
-    }
-  }
-  @media only screen and (max-width: 768px) {
-    .titulo-recom {
-      font-size: 15px;
-    }
-  }
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 992px) {
-    .movil {
-      display: none;
-    }
-  }
 
+/* Desde un escritorio pequeño o una tablet*/
+
+@media (min-width: 768px) and (max-width: 979px) {}
+
+/* Desde Tablet y Smartphone */
+
+@media (min-width: 767px) {}
+
+/* Smartphone */
+
+@media (min-width: 480px) {}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+  .elemento-nav .sec {
+    font-size: 20px;
+  }
+  .normal {
+    display: none;
+  }
+  .card-body {
+    height: 100px;
+  }
+  .all-botones {
+    margin-top: -30px;
+  }
+}
+
+@media only screen and (min-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 768px) {
+  .movil {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .titulo-recom {
+    font-size: 15px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 992px) {
+  .movil {
+    display: none;
+  }
+}
