@@ -58,7 +58,7 @@ window.onload = () => {
   $('.caption').mouseover(showMust).mouseout(hidden);
 };
 
-function apareceScroll() {
+const apareceScroll = () => {
   let imgScroll = document.getElementsByTagName('html')[0];
   let elementoAparece = document.getElementsByClassName('aparece');
 
