@@ -1,13 +1,12 @@
 
 window.onload = () => {
-  let searchFood = $('#search-locals');
   /* El método Object.keys devuelve un array de las propiedades names de un objeto */
   let locals = Object.keys(orientalData);
   /* La variable let de locals recibe la data generada en el archivo orientaldata */
   console.log(locals);
 
   const allLocals = () => {
-    /* Método 'each' en jquery su funcionalidad es la de recorrer los elementos de un mismo tipo y a su vez ejecutar una acción por cada uno de ellos*/
+    /*  'each' su funcionalidad es la de recorrer los elementos de un mismo tipo y a su vez ejecutar una acción por cada uno de ellos*/
     $.each(locals, (i) => {
       let paintLocals =
        `<li class="collection col-xs-6 col-sm-4 col-md-3">
@@ -27,22 +26,6 @@ window.onload = () => {
   };
 
   allLocals();
-
-  const searchFoodFilter = () => {
-    let searchFoodPlace = searchFood.val();
-    $('.collection').hidden();
-    // each se utiliza para iterar en la coleccion
-    $('.collection a').each(function() {
-      let arrayFood = orientalData[$(this).attr('id')].food;
-      for (let i = 0; i < arrayFood.length; i++) {
-        if (arrayFood[i].indexOf(searchFoodPlace) !== -1 || ((orientalData[$(this).attr('id')].name).toLowerCase()).indexOf(searchFoodPlace.toLowerCase()) !== -1) {
-          $(this).parent().fadeIn('slow');
-        };
-      }
-    });
-  };
-
-  searchFood.keyup(searchFoodFilter);
 
   function showMust() {
     $(this).css('opacity', '4');
